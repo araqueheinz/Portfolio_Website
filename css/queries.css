@@ -1,0 +1,74 @@
+/*  ///////////////////////////////////////////////
+   //* 1023 to 1200px BIG TABLETS & COMPUTERS * //
+  /////////////////////////////////////////////// */    
+
+  @media only screen and (max-width: 1200px) {
+   
+  }
+  
+  /*  ////////////////////////////////////////////////
+     //*768 to 1023px SMALL TABLETS & BIG TABLETS* //
+    //////////////////////////////////////////////// */    
+  
+  @media only screen and (min-width: 900px) {
+
+    .col-narrow {
+      width: 30%;
+      float: left;
+    }
+    .col-wide {
+      width: 70%;
+      float: left;
+      padding-left: 20px;
+    }
+    
+  }
+  
+  /*  ///////////////////////////////////////////////
+     //   * 481 to 767px PHONES & TABLETS *       //
+    /////////////////////////////////////////////// */    
+  
+  @media only screen   and (max-width: 899px) {
+
+    header {
+      text-align: center;
+    }
+    .profile-img {
+      width: 200px;
+    }
+  }
+  
+  /*  ///////////////////////////////////////////////
+     //       * 0 to 480px SMALL PHONES *         //
+    /////////////////////////////////////////////// */    
+  
+  @media only screen and (max-width: 480px) {
+    header {
+      text-align: center;
+    }
+    .profile-img {
+      margin-top: 50px;
+      width: 100px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 25px;
+      margin-top: 0;
+    }
+    h3 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    /*  ///////////////////////////////////////////////
+   //             * SKILLS CONTROLS *           //
+  /////////////////////////////////////////////// */
+    .skills img {
+      width: 60px;
+      height: auto;
+    }
+    
+  }

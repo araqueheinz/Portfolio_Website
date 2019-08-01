@@ -1,0 +1,240 @@
+/* Color Palette
+#4897D8 - electric blue
+#FFDb5C - banana
+#FA6E59 - mango
+#F8A055 - cantaloupe
+*/
+
+/*  ///////////////////////////////////////////////
+   //            * MASTER CONTROLS *            //
+  /////////////////////////////////////////////// */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color:#4897D8;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* ADD TRANSITION / ANIMATE */
+  transition: border-bottom 0.8s;
+}
+
+a:hover, a:active {
+  color: rgb(18, 76, 125);
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: hidden;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+/*  ///////////////////////////////////////////////
+   //        * REUSABLE COMPONENTS *            //
+  /////////////////////////////////////////////// */
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+  }
+
+.box {
+  padding: 1%;
+}
+  
+/*  ///////////////////////////////////////////////
+   //            * HEADER & FOOTER *            //
+  /////////////////////////////////////////////// */
+
+header, footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero.jpg) no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+header h1, header h2 {
+  color: white;
+  margin: 0;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+/*  ///////////////////////////////////////////////
+   //             * NAV CONTROLS *              //
+  /////////////////////////////////////////////// */
+
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*z-index: 100;*/
+}
+nav a {
+  display: inline-block;
+  padding: 7px 10px;
+  margin: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*  ///////////////////////////////////////////////
+   //             * SKILLS CONTROLS *           //
+  /////////////////////////////////////////////// */
+.skills h2 {
+  margin-bottom: 0;
+}
+
+.skills h3 {
+  padding: 20px 0;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.skills img {
+  width: 100px;
+  height: auto;
+}
+
+.skills div {
+  text-align: left;
+}
+
+/*  ///////////////////////////////////////////////
+   //         * PROJECTS CONTROLS *             //
+  /////////////////////////////////////////////// */
+  .projects {
+    background-color: rgb(247, 247, 247);
+  }
+
+/*  ///////////////////////////////////////////////
+   //          * EDUCATION CONTROLS *           //
+  /////////////////////////////////////////////// */
+
+.education {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/orlando.jpg) no-repeat fixed;
+  color: white;
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+
+/*  ///////////////////////////////////////////////
+   //       * CERTIFICATES CONTROLS *           //
+  /////////////////////////////////////////////// */
+
+  .certificates h2 {
+    margin-top: 20px;
+    
+  }
+
+  .certificates a {
+    text-transform: none;
+    color: rgb(255, 230, 141);
+    
+  }
+
+
+/*  ///////////////////////////////////////////////
+   //            * WORK CONTROLS *              //
+  /////////////////////////////////////////////// */
+.work {
+  background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+
+/*  ///////////////////////////////////////////////
+   //        * EDUCATION CONTROLS *             //
+  /////////////////////////////////////////////// */
+
+
+
+
+
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
