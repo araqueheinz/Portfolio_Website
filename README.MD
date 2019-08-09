@@ -1,7 +1,7 @@
-# Project Name: Portfolio Website
+# Welcome!
 
-## Project description 
-This is my portfolio website, simple and clean as possible.
+## Porfolio Website 
+I like to think that my protfolio website is an extention of my resume. Here, you can navigate to all my projects and learn more about me as a developer.
 
 ## Check it out
-[Heinz Aaraque Portfolio Website](https://araqueheinz.github.io/Project-4_ARI/)
+[Heinz Aaraque Portfolio Website](https://araqueheinz.github.io/Project-PortfolioWebsite/)
